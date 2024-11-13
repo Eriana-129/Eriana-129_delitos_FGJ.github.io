@@ -1,4 +1,4 @@
-# Análisis de la base de datos de las ‘Víctimas en carpetas de investigación (acumulado)’ de la Fiscalía General de Justicia de la CDMX
+# Dashboard de la base de datos de las ‘Víctimas en carpetas de investigación (acumulado)’ de la Fiscalía General de Justicia de la CDMX
 
 - Fecha de descarga de la información: 4 de noviembre de 2024
 
