@@ -52,3 +52,20 @@ Dentro de la base de la FGJ, la columna alcaldia_hecho tenía celdas vacías y v
 8. Se eliminaron las columnas “colonia_catalogo” “alcaldia_hecho” “alcaldia_catalogo” “municipio_hecho” y finalmente se obtuvo una base limpia.
 
 9. Posteriormente, se procedió a realizar las tablas, gráficas y mapas que se presentan en los siguientes apartados del dashboard.
+
+## Paneles del Dashboard
+
+Para el primer apartado del Dashboard, se colocó:
+- Un sidebar en donde se describió el procedimiento realizado para obtener la base final:
+- Una tabla resumen por Alcaldías y año de los delitos, así como una tasa de incidencia por cada 1000 habitantes. Se destaca que para un análisis futuro, es importante diferenciar por tipo de delito para que las tasas sean más relevantes.
+- Una gráfica de pareto, donde se adjuntó la frecuencia acumulada de los delitos por Alcaldía para el año 2024, encontrandosé que las Alcaldías Cuauhtémoc y Benito Juárez aportaban el 23% del total de los delitos.
+- Una tabla de los datos de la gráfica de pareto, donde se muestran de manera textual lo dicho anteriormente, que las Alcaldías Cuauhtémoc y Benito Juárez aportaban el 23% del total de los delitos, seguidas de Miguel Hidalgo, Venustiano Carranza e Iztacalco. Algo que podría sonar curioso para algunos, es que Iztapalapa a pesar de tener una mala fama, fue la Alcaldía que respecto al total de su población, aportó menor cantidad de delitos registrados por cada 1000 habitantes en toda la CDMX.
+
+En el segundo panel, se colocó:
+- El procedimiento realizado a la base final para obtener los datos de solo el 2024, pasando a crearse una base de 155,515 registros. 
+- Una tabla de la categoría de los Delitos, en donde se resumió la información por meses.
+- Una gráfica de los delitos del 2024, agrupada por categorías y meses. Esta gráfica es la representación de la tabla anterior, mostrando que mayo del 2024 fue el mes en el que más se denunciaron delitos. Otro punto a destacar es que de todas las categorías de delitos, la más común es la de "Delito de bajo impacto".
+- Un mapa de calor, de acuerdo con los Delitos de Bajo impacto, cuya base contó con 135606 registros. La clasificación de los límites se dio de acuerdo a los percentiles 0%, 25%, 50%, 75%, 90%, 95% y 100%. Se encontró, que los delitos de bajo impacto son más comúnes entre las 12 y 14 hrs, es el horario más habitual para los delitos de bajo impacto. Extra se creo una tabla resumen de los días de la semana respecto al total de delitos de bajo impacto, los viernes, lunes y jueves eran los días con mayor incidencia de delitos de bajo impacto. Uno pensaría que eran los fines de semana, pero ese no fue el caso al menos para este año, un análisis de los otros años podría esclarecer ese mito urbano de que un fin de semana es más inseguro que entre semana. 
+
+En el tercer panel, se colocó: 
+- Un mapa de los delitos de bajo impacto, agrupado por colonias de la CDMX. Las etiquetas indican la Alcaldía, colonia y cantidad de delitos de bajo impacto registrados de enero a septiembre de 2024. Si bien es un mapa sencillo, es un ejemplo claro de la importancia de la información geoespacial, la cual debe de ser lo más precisa y exacta posible para una futura toma de decisiones. 
