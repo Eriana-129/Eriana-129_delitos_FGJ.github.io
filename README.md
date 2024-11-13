@@ -14,6 +14,9 @@ Datos del Instituto Electoral de la CDMX:
 - Tipo de archivo: .shp
 - Archivo usado: Colonias electorales 2022
 
+## Link al dashboard 
+
+https://eriana-129.github.io/Eriana-129_delitos_FGJ.github.io/main.html
 
 ## Introducción 
 
